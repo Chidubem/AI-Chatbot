@@ -1,0 +1,94 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hello", "Hi", "Hey", "Good morning", "Good evening", "Greetings"],
+            "responses": ["Hello! How may I assist you today?", "Hi! It's wonderful to hear from you. How is your day going?", "Hello! What can I help you with today?"]
+        },
+        {
+            "tag": "pidgin",
+            "patterns": ["How far bro", "How you dey", "wetin dey sup", "Anything for your boy", "show love"],
+            "responses": ["I dey", "i dey alright", "omo nothing dey", "we dey on code"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Goodbye", "See you later", "Bye", "Talk to you soon", "Take care"],
+            "responses": ["Goodbye! Feel free to return if you need assistance.", "Take care! I look forward to speaking with you again soon.", "Goodbye! I am here whenever you need me."]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "I appreciate it"],
+            "responses": ["You are welcome! I am always happy to help.", "I am glad I could assist you today.", "It is no problem at all! Reach out if you need further help."]
+        },
+        {
+            "tag": "how_are_you",
+            "patterns": ["How are you?", "How's it going?", "What is your mood today?"],
+            "responses": ["I am doing great, thank you! What about you?", "I am good! Thanks for asking. How are you?"]
+        },
+        {
+            "tag": "favorite_color",
+            "patterns": ["What is your favorite color?", "Do you have a favorite color?"],
+            "responses": ["I think all colors are beautiful! Do you have a favorite?", "Colors are wonderful! If I had to choose, I might prefer blue."]
+        },
+        {
+            "tag": "random_fact",
+            "patterns": ["Tell me a fun fact", "Do you have any interesting facts?"],
+            "responses": ["Did you know that honey never spoils? Archaeologists have discovered pots of honey in ancient tombs that are over 3,000 years old!", "Here’s a fun fact: Octopuses have three hearts!"]
+        },
+        {
+            "tag": "favorite_food",
+            "patterns": ["What is your favorite food?", "Do you enjoy pizza?", "What should I eat?"],
+            "responses": ["If I could eat, I would probably love pizza! It is a popular choice.", "Food is delightful! What is your favorite dish?"]
+        },
+        {
+            "tag": "favorite_movie",
+            "patterns": ["What is your favorite movie?", "Do you enjoy films?", "Best movie recommendations?"],
+            "responses": ["If I could watch movies, I would love 'Inception.' What about you?", "Many people regard 'The Shawshank Redemption' as a classic. Have you seen it?"]
+        },
+        {
+            "tag": "random_conversation",
+            "patterns": ["What are you doing?", "Can we chat?", "What do you do for fun?"],
+            "responses": ["I am always available for a conversation! What would you like to discuss?", "I enjoy assisting with any questions! What are your hobbies?"]
+        },
+        {
+            "tag": "jokes",
+            "patterns": ["Tell me a joke", "Make me laugh"],
+            "responses": ["Why do skeletons not fight each other? They do not have the guts!", "Why did the scarecrow win an award? Because he was outstanding in his field!"]
+        },
+        {
+            "tag": "motivational_quotes",
+            "patterns": ["I need motivation", "Can you inspire me?"],
+            "responses": ["Believe in yourself! You are capable of achieving great things.", "Every significant journey begins with a single step. You can do this!"]
+        },
+        {
+            "tag": "random_thoughts",
+            "patterns": ["What is a random thought?", "Tell me something interesting"],
+            "responses": ["Isn't it fascinating to think that every time we look at the stars, we are looking back in time?", "Have you ever wondered what it would be like if animals could speak?"]
+        },
+        {
+            "tag": "current_mood",
+            "patterns": ["How do you feel?", "What is your mood?"],
+            "responses": ["I am feeling fantastic! Ready to assist with anything you need.", "I am in a positive mood! How are you feeling?"]
+        },
+        {
+            "tag": "advice",
+            "patterns": ["Can you give me advice?", "I need some advice"],
+            "responses": ["I am happy to help! What kind of advice are you seeking?", "Please share more, and I will do my best to assist you."]
+        },
+        {
+            "tag": "learning",
+            "patterns": ["Can you teach me something?", "I want to learn something new"],
+            "responses": ["Learning a little each day builds amazing knowledge over time!", "Let us explore something new together! What topic interests you the most?"]
+        },
+        {
+            "tag": "weather",
+            "patterns": ["What is the weather like?", "Will it rain today?", "What is the temperature?"],
+            "responses": ["Let me check the weather for you.", "It appears to be sunny today! Perfect weather for a walk."]
+        },
+        {
+            "tag": "games",
+            "patterns": ["Do you enjoy games?", "What is your favorite game?"],
+            "responses": ["I do not play games, but I have heard that 'The Legend of Zelda' is excellent!", "How about trying something fun like 'Among Us' or 'Minecraft'?"]
+        }
+    ]
+}
